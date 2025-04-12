@@ -76,7 +76,19 @@
     </article>
     <footer>
         <h2 id="Contato">Contato:</h2>
-        <a href="https://github.com/pukanski">Github</a>
+
+        <form action="/enviar" method="POST">
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome" required><br><br>
+    
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+    
+            <label for="mensagem">Mensagem:</label><br>
+            <textarea id="mensagem" name="mensagem" rows="4" cols="50" required></textarea><br><br>
+    
+            <button type="submit">Enviar</button>
+        </form>
     </footer>
 </body>
 </html>
