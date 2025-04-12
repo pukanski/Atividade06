@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 06</title>
+</head>
+<body>
+    <header>
+        <h1>Principais Algoritmos de Ordenação</h1>
+    </header>
+    <main>
+        <p>
+            Os algoritmos de ordenação são fundamentais em ciência da computação devido à sua aplicabilidade em diversos problemas do dia a dia, como organização de dados, busca eficiente e otimização de processos.
+        </p>
+    </main>
+    <nav>
+        <ul><b>Sumário</b>
+            <li><a href="#Insertion">Insertion Sort</a></li>
+            <li><a href="#Selection">Selection Sort</a></li>
+            <li><a href="#Bubble">Bubble Sort</a></li>
+            <li><a href="#Merge">Merge Sort</a></li>
+            <li><a href="#Quick">Quick Sort</a></li>
+            <li><a href="#Contato">Contato</a></li>
+        </ul>
+    </nav>
+    <article>
+        <h2 id="Insertion">Insertion Sort</h2>
+        <p>O Insertion Sort trabalha de maneira semelhante à forma como ordenamos cartas em uma mão. Ele começa do segundo elemento e compara com os anteriores, colocando-o na posição correta. Esse processo é repetido para cada elemento subsequente. Seu desempenho é bom quando a lista já está parcialmente ordenada, com complexidade O(n2)O(n2) no pior caso, mas pode ser muito eficiente para listas pequenas ou quase ordenadas.</p>
+        
+        <center>
+            <figure>
+                <img src="insertion.png" alt="Exemplo do algoritmo Insertion Sort" width="600" height="400">
+                <figcaption>Exemplo do algoritmo Insertion Sort</figcaption>
+            </figure>
+        </center>
+        
+        <h2 id="Selection">Selection Sort</h2>
+        <p>O Selection Sort funciona selecionando o menor (ou maior) elemento de uma lista e trocando-o com o elemento da posição inicial. Esse processo é repetido para os elementos subsequentes até que toda a lista esteja ordenada. Embora simples, também possui complexidade O(n2)O(n2), tornando-o ineficiente para listas grandes.</p>
+        
+        <center>
+            <figure>
+                <img src="selection.png" alt="Exemplo do algoritmo Insertion Sort" width="600" height="500">
+                <figcaption>Exemplo do algoritmo Insertion Sort</figcaption>
+            </figure>
+        </center>
+
+        <h2 id="Bubble">Bubble Sort</h2>
+        <p>O Bubble Sort é um algoritmo simples, mas ineficiente para grandes volumes de dados. Ele percorre repetidamente a lista, comparando elementos adjacentes e trocando-os de posição se estiverem na ordem errada. Esse processo é repetido até que a lista esteja ordenada. A complexidade temporal do Bubble Sort é O(n2)O(n2), o que o torna lento para listas grandes.</p>
+        
+        <center>
+            <figure>
+                <img src="bubble.png" alt="Exemplo do algoritmo Insertion Sort" width="600" height="400">
+                <figcaption>Exemplo do algoritmo Insertion Sort</figcaption>
+            </figure>
+        </center>
+
+        <h2 id="Merge">Merge Sort</h2>
+        <p>O Merge Sort é um algoritmo de ordenação eficiente baseado no conceito de divisão e conquista. Ele divide a lista em duas metades, ordena essas metades recursivamente e, em seguida, as combina de maneira ordenada. O Merge Sort tem complexidade O(nlog⁡n)O(nlogn) em todos os casos, o que o torna muito mais rápido que os algoritmos O(n2)O(n2) para listas grandes.</p>
+        
+        <center>
+            <figure>
+                <img src="merge.png" alt="Exemplo do algoritmo Insertion Sort" width="600" height="400">
+                <figcaption>Exemplo do algoritmo Insertion Sort</figcaption>
+            </figure>
+        </center>
+
+        <h2 id="Quick">Quick Sort</h2>
+        <p>O Quick Sort também é um algoritmo baseado em divisão e conquista. Ele escolhe um "pivô" e particiona a lista de modo que os elementos menores que o pivô fiquem à esquerda e os maiores, à direita. Esse processo é repetido recursivamente para as sublistas resultantes. No pior caso, o Quick Sort tem complexidade O(n2)O(n2), mas, em média, é muito eficiente, com complexidade O(nlog⁡n)O(nlogn)</p>
+        <center>
+            <figure>
+                <img src="quick.png" alt="Exemplo do algoritmo Insertion Sort" width="600" height="400">
+                <figcaption>Exemplo do algoritmo Insertion Sort</figcaption>
+            </figure>
+        </center>
+    </article>
+    <footer>
+        <h2 id="Contato">Contato:</h2>
+        <a href="https://github.com/pukanski">Github</a>
+    </footer>
+</body>
+</html>
